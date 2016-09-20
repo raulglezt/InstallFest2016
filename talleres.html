@@ -1,0 +1,82 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Install Fest 2016 | FEI UV</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>		
+		<link href="css/style.css" rel='stylesheet' type='text/css'/>  			
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">		
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>	
+
+		<script src="js/jquery.min.js"></script>
+
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>		
+	</head>
+	<body>
+		<div class="header">
+			<div class="top-header">
+				<div class="container">
+					<div class="logo">
+							<a href="#"><img src="" title="" /></a>
+							<h2>***Logo***</h2>
+						</div>
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="conoce.html">Conoce más</a><span> </span></li>								
+								<li><a href="talleres.html">Talleres</a></li>
+								<li><a href="conferencias.html">Conferencias</a><span> </span></li>
+								<li><a href="concurso.html">Concurso</a></li>
+								<li><a href="contacto.html">Contacto</a></li>
+								<li><a href="mapa.html">Cómo llegar</a></li>
+								<div class="clearfix"> </div>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<div id="conocemas" class="about">
+				<div class="about-head text-center">
+					<div class="container">
+						<h2>Talleres</h2>
+						<span> </span>
+						<p>Aqui irá la información sobre talleres</p>
+						<p></p>
+						<p></p>
+						<p>Etc...</p>
+					</div>
+				</div>				
+			</div>			
+			<div class="copy-right">
+				<div class="container">
+					<p>Template by <a href="https://w3layouts.com/">W3layouts</a></p>					
+					<a href="#" id="toTop" style="display: block;"> 
+					<span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+	</body>
+</html>
+
