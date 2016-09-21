@@ -5,157 +5,174 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE HTML>
-<html>
+<html lang="es">
 
 <head>
-	<title>Install Fest 2016 | FEI UV</title>
-	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/freelancer.css" rel="stylesheet">
-	<link href="css/style.css" rel='stylesheet' type='text/css' />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
-		rel='stylesheet' type='text/css'>
+    <title>Install Fest 2016 | FEI UV</title>
 
-	<script src="js/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
 
-	<script>
-			$(function() {
-				var pull 		= $('#pull');
-					menu 		= $('nav ul');
-					menuHeight	= menu.height();
-				$(pull).on('click', function(e) {
-					e.preventDefault();
-					menu.slideToggle();
-				});
-				$(window).resize(function(){
-	        		var w = $(window).width();
-	        		if(w > 320 && menu.is(':hidden')) {
-	        			menu.removeAttr('style');
-	        		}
-	    		});
-			});
-		</script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <script src="js/jquery.min.js"></script>
+
+    <script>
+        $(function() {
+            var pull = $('#pull');
+            menu = $('nav ul');
+            menuHeight = menu.height();
+            $(pull).on('click', function(e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+            $(window).resize(function() {
+                var w = $(window).width();
+                if (w > 320 && menu.is(':hidden')) {
+                    menu.removeAttr('style');
+                }
+            });
+        });
+    </script>
+
 </head>
 
 <body>
-	<div class="header">
-		<div class="top-header">
-			<div class="container">
-				<div class="logo">
-					<a href="index.html"><img src="images/logo_header.svg" WIDTH=300 title="Install Fest 2016" /></a>
-				</div>
-				<nav class="top-nav">
-					<ul class="top-nav">
-						<li><a href="conoce.html">Conoce más</a><span> </span></li>
-						<li><a href="talleres.html">Talleres</a></li>
-						<li><a href="conferencias.html">Conferencias</a><span> </span></li>
-						<li><a href="concurso.html">Concurso</a></li>
-						<li><a href="contacto.html">Contacto</a></li>
-						<li><a href="mapa.html">Cómo llegar</a></li>
-						<div class="clearfix"> </div>
-					</ul>
-					<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
-				</nav>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-	<div id="conocemas" class="about">
-		<div class="about-head text-center">
-			<div class="container">
-				<h1>Install Fest 2016</h1>
-				<span> </span>
-				<p>Esta nueva edición del Install Fest se llevara a cabo el próximo 15 de octubre en la Facultad de Estadística e Informática
-					a partir de las 9 am. </p>
+    <!-- Inicio de Header Menu -->
+    <div class="header">
+        <div class="top-header">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo_header.svg" WIDTH=300 title="Install Fest 2016" /></a>
+                </div>
+                <nav class="top-nav">
+                    <ul class="top-nav">
+                        <li><a href="conoce.html">Conoce más</a><span> </span></li>
+                        <li><a href="talleres.html">Talleres</a></li>
+                        <li><a href="conferencias.html">Conferencias</a><span> </span></li>
+                        <li><a href="concurso.html">Concurso</a></li>
+                        <li><a href="mapa.html">Cómo llegar</a></li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                    <a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+                </nav>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de Header Menu -->
 
-			</div>
-		</div>
+    <!-- Inicio de Contenido -->
+    <div id="conocemas" class="about">
+        <div class="about-head text-center">
+            <div class="container">
+                <div class="text-center">
+                    <a href=""><img src="images/logo-texto.svg" WIDTH=550 title="Install Fest 2016" /></a>
+                </div>
+                <span> </span>
+                <h3>Esta nueva edición del Install Fest se llevara a cabo el próximo 15 de octubre en la Facultad de Estadística e Informática a partir de las 9 am. </h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 about-grid text-center">
+        <br><br><br><br>
+        <img src="images/logo.svg" WIDTH=350 HEIGHT=350></img>
+    </div>
 
-		<div class="about-grids text-center">
-			<div class="container">
+    <div class="about-grids text-center">
+        <div class="container">
+            <div class="col-md-9 about-grid">
 
-				<div class="col-md-3 about-grid">
-					<span class="light-icon"> </span>
-					<h3><a>¿Qué es?</a></h3>
-					<p>El Install Fest ya es una tradición de la Facultad de Estadística e Informática, la intención principal es animar a
-						los asistentes al uso software libre en sus tareas cotidianas mostrándole las diversas alternativas que existen en
-						la actualidad.</p>
-					<label> </label>
-				</div>
-				<div class="col-md-3 about-grid">
-					<span class="pen-icon"> </span>
-					<h3><a>¿De que trata?</a></h3>
-					<p>Este año el Install Fest contara con talleres y conferencias con temas interesantes, sin olvidar la demostración e instalación
-						de distribuciones de Linux al público que lo solicite *Es gratis*.</p>
-					<label> </label>
-				</div>
-				<div class="col-md-3 about-grid">
-					<span class="cog-icon"> </span>
-					<h3><a>Talleres</a></h3>
-					<p>Los talleres libres son una forma de que el público que asista pueda aprender e interactuar con herramientas que son
-						totalmente libres que podrían comenzar a utilizar en su vida cotidiana.</p>
-					<a class="bannner-btn" href="talleres.html">Mas información</a>
-					<label> </label>
-				</div>
+                <div class="col-md-6 about-grid">
+                    <span class="light-icon"> </span>
+                    <h3><a>¿Qué es?</a></h3>
+                    <p style="text-align: justify;">El Install Fest ya es una tradición de la Facultad de Estadística e Informática, la intención principal es animar a los asistentes al uso software libre en sus tareas cotidianas mostrándole las diversas alternativas que existen en
+                        la actualidad.</p>
+                    <label> </label>
+                </div>
 
-				<div class="col-md-3 about-grid">
-					<span class="mon-icon"> </span>
-					<h3><a>Conferencias</a></h3>
-					<p>Las conferencias se imparten con el fin de dar a conocer temas de actualidad y de interes para nuestros asistentes.</p>
-					<a class="bannner-btn" href="conferencias.html">Mas información</a>
-				</div>
+                <div class="col-md-6 about-grid">
+                    <span class="pen-icon"> </span>
+                    <h3><a>¿De que trata?</a></h3>
+                    <p style="text-align: justify;">Este año el Install Fest contara con talleres y conferencias con temas interesantes, sin olvidar la demostración e instalación de distribuciones de Linux al público que lo solicite *Es gratis*.</p>
 
+                </div>
+            </div>
 
-				<div class="clearfix"> </div>
-			</div>
-		</div>
+            <div class="col-md-9 about-grid">
+                <div class="col-md-6 about-grid">
+                    <span class="cog-icon"> </span>
+                    <h3><a>Talleres</a></h3>
+                    <p style="text-align: justify;">Los talleres libres son una forma de que el público que asista pueda aprender e interactuar con herramientas que son totalmente libres que podrían comenzar a utilizar en su vida cotidiana.</p>
+                    <a class="bannner-btn" href="talleres.html">Mas información</a>
+                    <label> </label>
+                </div>
 
+                <div class="col-md-6 about-grid">
+                    <span class="mon-icon"> </span>
+                    <h3><a>Conferencias</a></h3>
+                    <p style="text-align: justify;">Las conferencias se imparten con el fin de dar a conocer temas de actualidad y de interes para nuestros asistentes.</p>
+                    <a class="bannner-btn" href="conferencias.html">Mas información</a>
 
-	</div>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
 
-	<footer class="text-center">
-		<div class="footer-above">
-			<div class="container">
-				<div class="row">
-					<div class="footer-col col-md-4">
-						<h3>Información</h3>
+    <!-- Fin de Contenido -->
 
-					</div>
-					<div class="footer-col col-md-4">
-						<h3>!Visita nuestras redes sociales!</h3>
-						<ul class="list-inline">
-							<li>
-								<a href="https://www.facebook.com" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/events/1652297731722574/" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
-							</li>
-							<li>
-								<a href="" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+    <!-- Pie de pagina -->
 
-							</li>
-						</ul>
-						<br>
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Contacto</h3>
 
-					</div>
-					<div class="footer-col col-md-4">
-						<h3>Patrocinadores</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="footer-below">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<h6>Universidad Veracruzana 2016 | © <a href="http://www.w3schools.com/">W3School</a></h6>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+                    </div>
+
+                    <div class="footer-col col-md-4">
+                        <h3>!Visita nuestras redes sociales!</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-facebook" title="Facebook"></i></a>
+                            </li>
+
+                            <li>
+                                <a href="" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-twitter" title="Twitter"></i></a>
+                            </li>
+
+                        </ul>
+                        <br>
+
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Patrocinadores</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h6>Universidad Veracruzana 2016 | Layout @ <a href="http://www.w3schools.com/">W3School</a></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Fin de Pie de pagina -->
 </body>
 
 </html>
