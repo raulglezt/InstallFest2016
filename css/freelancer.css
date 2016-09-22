@@ -12,6 +12,10 @@ p {}
 
 p.small {}
 
+.btn-messenger:hover {
+	
+}
+
 a,
 a:hover,
 a:focus,
@@ -19,6 +23,7 @@ a:active,
 a.active {
     outline: 0;
     color: #18bc9c;
+    
 }
 
 hr.star-light,
@@ -314,14 +319,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .btn-social {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #fff;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 20px;
-    line-height: 45px;
+    
 }
 
 .btn:focus,
