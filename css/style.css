@@ -1190,12 +1190,12 @@ div.caption p {
 
 footer {
 	color: #fff;
-	height: 00px; 
-   
-  width:100%; 
-  position:absolute; 
-  bottom:0; 
-  
+	height: 00px;
+
+  width:100%;
+  position:absolute;
+  bottom:0;
+
 
 }
 
@@ -1249,4 +1249,12 @@ tr td:last-child,
 tr th:last-child {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+
+.table-container
+{
+    width: 100%;
+    overflow-y: auto;
+    _overflow: auto;
+    margin: 0 0 1em;
 }

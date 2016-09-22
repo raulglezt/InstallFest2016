@@ -137,16 +137,6 @@
 
     <!-- Pie de pagina -->
 
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.7";
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-
     <footer class="text-center">
         <div class="footer-above">
             <div class="container">
@@ -172,6 +162,15 @@
                         <ul class="list-inline">
                             <li>
                                 <div>
+                                  <div id="fb-root"></div>
+                                    <script>(function(d, s, id) {
+                                      var js, fjs = d.getElementsByTagName(s)[0];
+                                      if (d.getElementById(id)) return;
+                                      js = d.createElement(s); js.id = id;
+                                      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7";
+                                      fjs.parentNode.insertBefore(js, fjs);
+                                    }(document, 'script', 'facebook-jssdk'));
+                                    </script>
                                     <a href="https://www.facebook.com/InstallFest2016" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-facebook" title="Facebook"></i></a>
                                     <p></p>
                                     <div class="fb-like" data-href="https://www.facebook.com/InstallFest2016/" data-layout="button_count" data-action="like"
