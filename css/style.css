@@ -1191,12 +1191,9 @@ div.caption p {
 footer {
 	color: #fff;
 	height: 00px;
-
-  width:100%;
-  position:absolute;
-  bottom:0;
-
-
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
 footer h3 {
@@ -1225,36 +1222,152 @@ footer .footer-below {
 }
 
 table {
-  border-collapse: separate;
-  border-spacing: 0 5px;
+	border-collapse: separate;
+	border-spacing: 0 5px;
 }
 
 thead th {
-  background-color: #02918C;
-  color: white;
-  text-align: center;
+	background-color: #02918C;
+	color: white;
+	text-align: center;
 }
 
 tbody td {
-  background-color: #EEEEEE;
+	background-color: #EEEEEE;
 }
 
-tr td:first-child,
-tr th:first-child {
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+tr td:first-child, tr th:first-child {
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
 }
 
-tr td:last-child,
-tr th:last-child {
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
+tr td:last-child, tr th:last-child {
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 
-.table-container
-{
-    width: 100%;
-    overflow-y: auto;
-    _overflow: auto;
-    margin: 0 0 1em;
+.table-container {
+	width: 100%;
+	overflow-y: auto;
+	_overflow: auto;
+	margin: 0 0 1em;
+}
+
+.titulo {
+	width: 96%;
+	max-width: 350px;
+	margin: 0 auto;
+}
+
+.titulo img {
+	width: 90%;
+	height: auto;
+}
+
+.foto {
+	width: 90%;
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+.foto img {
+	width: 60%;
+	height: auto;
+}
+
+
+/* Botones social2*/
+
+#m-soc2 {
+	width: 220px;
+	height: 50px;
+	margin: 18px 0 0 10px;
+	
+	
+}
+
+#m-soc2 li {
+	list-style: none;
+	float: left;
+	border: none;
+	margin: 7px;
+	
+}
+
+#m-soc2 li a {
+	background: url(http://1.bp.blogspot.com/-WEUoFdODkl4/T1klwzMGoSI/AAAAAAAAJDU/RLpgmO0OHjs/s1600/sprite2-compartidisimo.png) no-repeat 0 0;
+	display: block;
+	position: relative;
+	width: 33px;
+	height: 33px;
+	overflow: visible;
+	margin: 0;
+	
+}
+
+#m-soc2 li a.twitter {
+	background-position: 0 0
+}
+
+#m-soc2 li a.facebook {
+	background-position: -33px 0
+}
+
+#m-soc2 li a.google {
+	background-position: -66px 0
+}
+
+#m-soc2 li a.rss {
+	background-position: -99px 0
+}
+
+#m-soc2 li a.twitter:hover {
+	background-position: 0 -33px
+}
+
+#m-soc2 li a.facebook:hover {
+	background-position: -33px -33px
+}
+
+#m-soc2 li a.google:hover {
+	background-position: -66px -33px
+}
+
+#m-soc2 li a.rss:hover {
+	background-position: -99px -33px
+}
+
+#m-soc2 li a span {
+	background: #555;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	width: auto;
+	height: auto;
+	opacity: 0;
+	text-align: left;
+	color: #fff;
+	filter: alpha(opacity=0);
+	white-space: nowrap;
+	border-radius: 3px;
+	font-size: 12px;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+	padding: 3px;
+}
+
+#m-soc2 li a:hover {
+	text-decoration: none;
+}
+
+#m-soc2 li a:hover span {
+	
+}
+
+.btn-sociales {
+	text-align: center;
+	content: center;
+	
 }

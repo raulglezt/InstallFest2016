@@ -334,7 +334,7 @@ textarea {
 }
 
 a {
-    color: #1B242F;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -5725,12 +5725,13 @@ a.list-group-item-danger.active:focus {
 .panel-title {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 17px;
     color: inherit;
+    text-decoration: none;
 }
 
 .panel-title>a {
-    color: inherit;
+    color: #fff;
 }
 
 .panel-footer {
@@ -5953,8 +5954,8 @@ a.list-group-item-danger.active:focus {
 
 .panel-primary>.panel-heading {
     color: #fff;
-    background-color: #1B242F;
-    border-color: #1B242F;
+    background-color: #02918C;
+    border-color: #02918C;
 }
 
 .panel-primary>.panel-heading+.panel-collapse .panel-body {
