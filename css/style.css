@@ -1273,6 +1273,7 @@ tr td:last-child, tr th:last-child {
 .foto img {
 	width: 60%;
 	height: auto;
+	border-radius: 20%;
 }
 
 
