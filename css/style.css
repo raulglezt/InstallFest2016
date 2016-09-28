@@ -1415,3 +1415,8 @@ tr th:last-child {
 .text-left {
     text-align: left;
 }
+
+.text-description {
+    text-align: justify;
+    font-size: 10pt;
+}
