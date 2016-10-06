@@ -15,7 +15,7 @@
    viewBox="0 0 775.98476 124.01577"
    id="svg4190"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="logo_header.svg">
   <defs
      id="defs4192">
@@ -33,16 +33,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
+     inkscape:zoom="1.4"
      inkscape:cx="343.90326"
      inkscape:cy="-39.814581"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="32"
+     inkscape:window-height="702"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      units="mm"
      width="45mm" />
@@ -54,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,17 +65,17 @@
      transform="translate(0,-928.34664)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:54.26988602px;line-height:125%;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';letter-spacing:0px;word-spacing:0px;fill:#50989e;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="124.87566"
-       y="868.9245"
+       style="font-size:49.36127472px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#50989e;fill-opacity:1;stroke:none;font-family:Consolas;-inkscape-font-specification:Consolas Bold"
+       x="122.28705"
+       y="886.82227"
        id="text4725"
        sodipodi:linespacing="125%"
        transform="scale(0.88125432,1.1347462)"><tspan
          sodipodi:role="line"
          id="tspan4727"
-         x="124.87566"
-         y="868.9245"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:68.19202423px;line-height:125%;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';text-align:start;writing-mode:lr-tb;text-anchor:start"><tspan
+         x="122.28705"
+         y="886.82227"
+         style="font-size:62.02417755px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Consolas;-inkscape-font-specification:Consolas Bold"><tspan
            style="fill:#ffffff"
            id="tspan4804">~$&gt;</tspan><tspan
            style="fill:#cfc91d;fill-opacity:1"
@@ -101,14 +101,16 @@
          cy="588.72791"
          cx="712.77753"
          id="path4192"
-         style="opacity:1;fill:#50989e;fill-opacity:1;stroke:none;stroke-width:2.4000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#50989e;fill-opacity:1;stroke:none;stroke-width:2.4000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 746.61764,588.72791 c 0,2.78945 -15.15074,5.05076 -33.84011,5.05076 -18.68938,0 -33.84011,-2.26131 -33.84011,-5.05076 0,-2.78946 15.15073,-5.05077 33.84011,-5.05077 18.68937,0 33.84011,2.26131 33.84011,5.05077 z" />
       <ellipse
          style="opacity:1;fill:#50989e;fill-opacity:1;stroke:none;stroke-width:2.4000001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="ellipse4194"
          cx="713.28259"
          cy="602.36499"
          rx="33.840111"
-         ry="5.0507627" />
+         ry="5.0507627"
+         d="m 747.1227,602.36499 c 0,2.78946 -15.15073,5.05076 -33.84011,5.05076 -18.68937,0 -33.84011,-2.2613 -33.84011,-5.05076 0,-2.78946 15.15074,-5.05076 33.84011,-5.05076 18.68938,0 33.84011,2.2613 33.84011,5.05076 z" />
       <g
          style="fill:#247e85;fill-opacity:1"
          transform="matrix(0,0.29643673,-0.29643673,0,902.6832,490.03254)"
@@ -127,14 +129,16 @@
          cy="-690.54138"
          cx="358.77551"
          id="path26152-9-5"
-         style="fill:#2f2f2f;stroke-width:0" />
+         style="fill:#2f2f2f;stroke-width:0"
+         d="m 367.74972,-690.54138 c 0,4.95629 -4.01789,8.97417 -8.97421,8.97417 -4.95632,0 -8.97421,-4.01788 -8.97421,-8.97417 0,-4.9563 4.01789,-8.97417 8.97421,-8.97417 4.95632,0 8.97421,4.01787 8.97421,8.97417 z" />
       <circle
          transform="matrix(0,1,-1,0,0,0)"
          r="6.0254917"
          cy="-737.42847"
          cx="406.83017"
          id="path26152-1-6-78"
-         style="fill:#2f2f2f;stroke-width:0" />
+         style="fill:#2f2f2f;stroke-width:0"
+         d="m 412.85566,-737.42847 c 0,3.32779 -2.6977,6.02549 -6.02549,6.02549 -3.32779,0 -6.02549,-2.6977 -6.02549,-6.02549 0,-3.32778 2.6977,-6.02549 6.02549,-6.02549 3.32779,0 6.02549,2.69771 6.02549,6.02549 z" />
       <g
          style="fill:#247e85;fill-opacity:1"
          transform="matrix(0.20249908,0,0,0.20249908,794.91735,343.81977)"
@@ -152,13 +156,15 @@
          cx="705.25427"
          cy="488.73611"
          rx="6.1303763"
-         ry="6.1303496" />
+         ry="6.1303496"
+         d="m 711.38465,488.73611 c 0,3.3857 -2.74466,6.13035 -6.13038,6.13035 -3.38571,0 -6.13037,-2.74465 -6.13037,-6.13035 0,-3.38569 2.74466,-6.13035 6.13037,-6.13035 3.38572,0 6.13038,2.74466 6.13038,6.13035 z" />
       <circle
          style="fill:#2f2f2f;stroke-width:0"
          id="circle4264"
          cx="738.08093"
          cy="456.70706"
-         r="4.1160774" />
+         r="4.1160774"
+         d="m 742.19701,456.70706 c 0,2.27325 -1.84283,4.11608 -4.11608,4.11608 -2.27324,0 -4.11607,-1.84283 -4.11607,-4.11608 0,-2.27325 1.84283,-4.11608 4.11607,-4.11608 2.27325,0 4.11608,1.84283 4.11608,4.11608 z" />
       <text
          transform="translate(0,4)"
          sodipodi:linespacing="125%"

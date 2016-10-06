@@ -15,7 +15,7 @@
    viewBox="0 0 386.22025 109.84248"
    id="svg3355"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="logo-texto-mapa.svg">
   <defs
      id="defs3357">
@@ -40,9 +40,9 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="32"
+     inkscape:window-height="702"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata3360">
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,17 +63,17 @@
      transform="translate(0,-942.52037)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:54.26988602px;line-height:125%;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';letter-spacing:0px;word-spacing:0px;fill:#f36d21;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="12.254029"
-       y="903.11713"
+       style="font-size:51.545784px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f36d21;fill-opacity:1;stroke:none;font-family:Consolas;-inkscape-font-specification:Consolas Bold"
+       x="13.251598"
+       y="857.78473"
        id="text4725"
        sodipodi:linespacing="125%"
-       transform="scale(0.88125432,1.1347462)"><tspan
+       transform="scale(0.83701933,1.1947155)"><tspan
          sodipodi:role="line"
          id="tspan4727"
-         x="12.254029"
-         y="903.11713"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:68.19202423px;line-height:125%;font-family:Consolas;-inkscape-font-specification:'Consolas Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#f36d21;fill-opacity:1">Cómo llegar</tspan></text>
+         x="13.251598"
+         y="857.78473"
+         style="font-size:64.76908875px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#f36d21;fill-opacity:1;font-family:Consolas;-inkscape-font-specification:Consolas Bold">Cómo llegar</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.97182417px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
